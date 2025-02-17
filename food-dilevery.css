@@ -1,0 +1,134 @@
+/* Food Ordering  section start */
+
+.food-ordering-section{
+    padding-top: 70px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 100px;
+    background-color: #f0f5ff;
+}
+.food-ordering-text{
+    width: 170%;
+    margin-top: 40px;
+}
+.contact-btn{
+    width: 150px;
+    height: 38px;
+    padding-top: 5px;
+   background: linear-gradient(76deg,#0000ab ,#0064ab);
+     /* border: 1px solid #0000ab; */
+     border-radius: 7px;
+     color: white;
+}
+
+@media (max-width: 530px) {
+    .food-ordering-section{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+  }
+
+  @media (max-width: 650px) {
+    .food-ordering-text{
+        width: 100%;
+       margin-top: 0px;
+    }
+} 
+
+/* Food Ordering section end */
+
+ /* grow buisness section start */
+
+ .grow-buisness{
+    padding-top: 100px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+ }
+ .grow-buisness h1{
+    margin-bottom: 18px;
+    font-family: Poppins;
+    font-weight: semibold;
+    color: #0000ab;
+ }
+ .below-heading{
+    font-size: 17px;
+    margin-bottom: 60px;
+ }
+.food-app{
+    width: 330px;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+ @media (max-width: 530px) {
+
+    .grow-buisness{
+          padding-left: 12px;
+          padding-right: 12px;  
+      }
+  }
+  
+
+ /* grow buisness section end */
+
+ /* steps we follow section start */
+
+ .steps-follow{
+    padding-top: 100px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+    background-color: #2191ff12;
+ }
+
+ .steps-follow .step{
+    width: 280px;
+    height: 300px;
+    padding: 14px;
+    border-radius: 8px;
+    border-bottom: 4px solid #0000ab;
+    background-color: white;
+}
+ @media (max-width: 530px) {
+
+    .steps-follow{
+          padding-left: 12px;
+          padding-right: 12px;  
+      }
+  }
+  
+ /* steps we follow section end */
+ /* 
+  Faq section start */
+
+
+  .web-faq-section{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+  }
+  .web-faq-section h1{
+      margin-bottom: 60px;
+  }
+
+  .que{
+    padding-top: 26px;
+    margin-bottom: 30px;
+    border-top: 1px solid rgb(224, 224, 224);
+  }
+  .que h5{
+    margin-bottom: 20px;
+  }
+  @media (max-width: 530px) {
+    .web-faq-section{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+  }
+
+  /* Faq section end */

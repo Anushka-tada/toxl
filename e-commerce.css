@@ -1,0 +1,115 @@
+/* e-commerce  section start */
+
+.ecommerce-section{
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 100px;
+    background-color: #f0f5ff;
+}
+.ecommerce-text{
+    width: 600px;
+}
+.contact-btn{
+    width: 150px;
+    height: 38px;
+    padding-top: 5px;
+   background: linear-gradient(76deg,#0000ab ,#0064ab);
+     /* border: 1px solid #0000ab; */
+     border-radius: 7px;
+     color: white;
+}
+
+@media (max-width: 530px) {
+    .ecommerce-section{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+  }
+
+  @media (max-width: 650px) {
+    .ecommerce-text{
+        width: 100%;
+       
+    }
+} 
+
+/* e-commerce section end */
+
+/* what to expect from section start */
+
+.what-expect {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+   }
+
+   .expect-service{
+    width: 280px;
+    padding: 13px;
+    height: 300px;
+    background-color: #f0f5ff;
+    border-radius: 7px;
+   }
+   .expect-service h5{
+      margin-top: 18px;
+      margin-bottom: 15px;
+   }
+
+   .what-expect h1{
+    margin-bottom: 18px;
+    margin-top: 14px;
+    font-family: Poppins;
+    font-weight: semibold;
+    color: #0000ab;
+   }
+
+   .what-expect .below-p{
+   font-size: 18px;
+   margin-bottom: 70px;
+   }
+
+   @media (max-width: 530px) {
+    .what-expect{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+  }
+
+
+/* what to expect from section end */
+
+ /* 
+  Faq section start */
+
+
+  .web-faq-section{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+  }
+  .web-faq-section h1{
+      margin-bottom: 60px;
+  }
+
+  .que{
+    padding-top: 26px;
+    margin-bottom: 30px;
+    border-top: 1px solid rgb(224, 224, 224);
+  }
+  .que h5{
+    margin-bottom: 20px;
+  }
+  @media (max-width: 530px) {
+    .web-faq-section{
+          padding-left: 18px;
+          padding-right: 18px;
+         
+      }
+  }
+
+  /* Faq section end */
