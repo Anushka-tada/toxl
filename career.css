@@ -1,3 +1,10 @@
+:root {
+    --primary-color: #e15f23; /* Primary color */
+    --secondary-color: #0b580f; /* Secondary color */
+    --third-color:#26770b0d;
+    --fourth-color:#fdf1ec;
+}
+ 
  /* career section start */
 
    .new-career{
@@ -6,10 +13,7 @@
     background-position: center top !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    
-
-   }
-
+       }
    
  /* career section end */
 
@@ -22,7 +26,7 @@
         padding-bottom: 100px;
  }
 .glance h1{
-    color: #0000ab;
+    color: var(--primary-color);
     font-family: Poppins;
     font-weight: semibold;
    
@@ -34,14 +38,14 @@
 }
 
 .glance-image{
-    background-color: #e4effe;
+    background-color: var(--third-color);
     width: 90px;
     height: 90px;
     border-radius: 12px;
     
 }
 .glance-service p{
-    color: #0e2b70;
+    color: var(--secondary-color);
     font-size: 17px;
     font-weight: 600;
 }
@@ -72,7 +76,7 @@
     border-top: 1px solid #dddddd
 } 
 .benefits-section h1{
-    color: #0000ab;
+    color: var(--primary-color);
     font-family: Poppins;
     font-weight: semibold;
 }
@@ -87,18 +91,18 @@
     border-radius: 7px;
     width: 250px;
     height: 180px;
-    box-shadow: 0px 0px 47px 13px #d0deff;
+    box-shadow: 0px 0px 47px 13px #ffded0;
 
 }
 .benefit:hover{
-    box-shadow: 0px 0px 47px 13px #c1d2fa;
+    box-shadow: 0px 0px 47px 13px #ffded0;
 
 } 
 .benefits{
     margin-top: 50px;
 }
 .benefits p {
-    color: #0e2b70;
+    color: var(--secondary-color);
     font-size: 17px;
     font-weight: 600;
 }
@@ -121,7 +125,7 @@
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 100px;
-    background-color: #e7f2ff;
+    background-color: var(--third-color);
 }
 .potential-section h1{
     font-family: Poppins;
@@ -136,7 +140,7 @@
 }
 .potential p{
     margin-top: 20px;
-    color: #0e2b70;
+    color: var(--secondary-color);
     font-size: 17px;
     font-weight: 600;
 }
@@ -150,7 +154,7 @@
 .potential-num{
      padding: 10px 14px;
      position: absolute;
-     background-color: rgb(250, 169, 63);
+     background-color: var(--primary-color);
      border-radius: 50%;
     margin-top: 80px;
     color: white;
